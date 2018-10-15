@@ -1,0 +1,17 @@
+digraph  {
+S2;
+S1;
+O3;
+O2;
+O1;
+S2 -> S2  [key=0, weight="0.6", label="0.6"];
+S2 -> S1  [key=0, weight="0.4", label="0.4"];
+S2 -> O3  [key=0, weight="0.5", label="0.5"];
+S2 -> O2  [key=0, weight="0.1", label="0.1"];
+S2 -> O1  [key=0, weight="0.4", label="0.4"];
+S1 -> S2  [key=0, weight="0.3", label="0.3"];
+S1 -> S1  [key=0, weight="0.7", label="0.7"];
+S1 -> O3  [key=0, weight="0.2", label="0.2"];
+S1 -> O2  [key=0, weight="0.6", label="0.6"];
+S1 -> O1  [key=0, weight="0.2", label="0.2"];
+}
