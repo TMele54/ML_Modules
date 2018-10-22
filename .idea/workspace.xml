@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb5f7137-3471-402c-b79c-94841f7e5bbd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/organizeData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/retrieveData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ML_Portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ML_Portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/additional_stops.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/preProText.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projects/NLP/yelpReviews/module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/NLP/nlp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/NLP/nlp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/NLP/yelpReviews/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projects/NLP/yelpReviews/retrieveData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Projects/NLP/yelpReviews/retrieveData.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,48 +17,50 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ML_Portfolio$module.coverage" NAME="module Coverage Results" MODIFIED="1540115052300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/NLP/yelpReviews" />
-    <SUITE FILE_PATH="coverage/ML_Portfolio$model.coverage" NAME="model Coverage Results" MODIFIED="1540121213699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/NLP/yelpReviews" />
+    <SUITE FILE_PATH="coverage/ML_Portfolio$model.coverage" NAME="model Coverage Results" MODIFIED="1540226248970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/NLP/yelpReviews" />
     <SUITE FILE_PATH="coverage/ML_Portfolio$pytest_in_module_py.coverage" NAME="pytest in module.py Coverage Results" MODIFIED="1540115044699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/NLP/Semantic-Classification/module/sentiment" />
-    <SUITE FILE_PATH="coverage/ML_Portfolio$retrieveData.coverage" NAME="retrieveData Coverage Results" MODIFIED="1540120772839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/NLP/yelpReviews" />
+    <SUITE FILE_PATH="coverage/ML_Portfolio$retrieveData.coverage" NAME="retrieveData Coverage Results" MODIFIED="1540130310259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Projects/NLP/yelpReviews" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1855891238">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.12" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
-          <entry key="txt" value="1" />
+          <entry key="py" value="16" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="13" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="54" />
           <entry key="dummy" value="19" />
-          <entry key="py" value="4506" />
+          <entry key="py" value="7535" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="4560" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="Python" value="7589" />
         </counts>
       </usages-collector>
     </session>
@@ -74,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/module.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1049">
-              <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+            <state relative-caret-position="1280">
+              <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
               <folding>
                 <element signature="e#2008#2631#1" />
                 <marker date="1540113516028" expanded="true" signature="1516:1521" ph="..." />
@@ -87,13 +86,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/retrieveData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="24" selection-end-column="33" />
+            <state relative-caret-position="1440">
+              <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding>
                 <element signature="e#364#395#0" expanded="true" />
-                <element signature="e#1503#2056#0" />
-                <marker date="1540120814988" expanded="true" signature="1375:1963" ph="..." />
-                <marker date="1540120814988" expanded="true" signature="2393:2690" ph="..." />
+                <marker date="1540164306886" expanded="true" signature="1300:1888" ph="..." />
               </folding>
             </state>
           </provider>
@@ -102,11 +99,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+            <state relative-caret-position="-37">
+              <caret line="98" column="36" lean-forward="true" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
               <folding>
                 <element signature="e#363#426#0" expanded="true" />
-                <element signature="e#1959#7304#1" />
               </folding>
             </state>
           </provider>
@@ -125,10 +121,19 @@
     <findStrings>
       <find>pth</find>
       <find>(size</find>
+      <find>modelInputSentences</find>
+      <find>it</find>
+      <find>“</find>
+      <find>getcoll</find>
+      <find>model_input_sentences</find>
+      <find>etCollectionData</find>
     </findStrings>
     <replaceStrings>
       <replace>directory</replace>
       <replace>(client,size</replace>
+      <replace>model_input_sentences</replace>
+      <replace>'</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -143,7 +148,10 @@
         <option value="&lt;354eb634-d469-4605-b869-6c91f45cc054&gt;/home/ubuntu/projects/Projects/NLP/yelpReviews/retrieveData.py" />
         <option value="$PROJECT_DIR$/Projects/NLP/yelpReviews/module.py" />
         <option value="$PROJECT_DIR$/Projects/NLP/yelpReviews/retrieveData.py" />
+        <option value="$PROJECT_DIR$/Projects/NLP/nlp.py" />
+        <option value="$PROJECT_DIR$/Projects/NLP/yelpReviews/additional_stops.txt" />
         <option value="$PROJECT_DIR$/Projects/NLP/yelpReviews/model.py" />
+        <option value="$PROJECT_DIR$/Projects/NLP/yelpReviews/preProText.py" />
       </list>
     </option>
   </component>
@@ -154,8 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1386" />
-    <option name="y" value="218" />
+    <option name="x" value="360" />
+    <option name="y" value="-16" />
     <option name="width" value="1522" />
     <option name="height" value="1932" />
   </component>
@@ -167,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -180,10 +187,17 @@
               <item name="ML_Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="Projects" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ML_Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML_Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="Projects" type="462c0819:PsiDirectoryNode" />
+              <item name="NLP" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -363,18 +377,18 @@
     <frame x="-6" y="-6" width="1513" height="973" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7087034" visible="true" weight="0.19450171" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7087034" visible="true" weight="0.16632302" />
       <window_info id="Structure" order="1" sideWeight="0.2902655" side_tool="true" weight="0.19450171" />
       <window_info id="Favorites" order="2" sideWeight="0.2857143" side_tool="true" weight="0.18350515" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32541567" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5017182" visible="true" weight="0.53800476" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5017182" visible="true" weight="0.6448931" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39904988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" content_ui="combo" id="TODO" order="6" sideWeight="0.49965635" weight="0.32897863" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49965635" weight="0.32897863" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4975945" weight="0.5023753" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4975945" weight="0.52019" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5017182" side_tool="true" weight="0.30047506" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49828178" weight="0.32897863" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -389,7 +403,7 @@
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Remote Host" order="6" weight="0.3298969" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" x="0" y="0" width="328" height="773" id="Documentation" order="8" sideWeight="0.5017065" side_tool="true" weight="0.3298969" />
+      <window_info anchor="right" x="0" y="0" width="328" height="773" id="Documentation" order="8" sideWeight="0.5017065" side_tool="true" visible="true" weight="0.07628866" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,13 +427,6 @@
     <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/data.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Projects/NLP/nlp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="77" column="32" selection-start-line="77" selection-start-column="32" selection-end-line="77" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/organizeData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -431,23 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="93" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="e#1067#1356#0" />
-            <element signature="e#1457#1592#0" />
-            <element signature="e#1664#1754#0" />
-            <element signature="e#1872#1962#0" />
-            <element signature="e#2081#2474#0" />
-            <element signature="e#2581#2772#0" />
-            <element signature="e#2845#2959#0" />
-            <element signature="e#3105#3193#0" />
-            <element signature="e#3245#3365#0" />
-            <element signature="e#3501#3546#0" />
-            <element signature="e#3619#3713#0" />
-            <element signature="e#3777#3894#0" />
-            <element signature="e#4025#4095#0" />
-            <element signature="e#4242#4453#0" />
-            <element signature="e#4490#4769#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,8 +446,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/module.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1049">
-          <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+        <state relative-caret-position="1280">
+          <caret line="88" column="17" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
           <folding>
             <element signature="e#2008#2631#1" />
             <marker date="1540113516028" expanded="true" signature="1516:1521" ph="..." />
@@ -467,24 +457,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/retrieveData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="24" selection-end-column="33" />
+        <state relative-caret-position="1440">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding>
             <element signature="e#364#395#0" expanded="true" />
-            <element signature="e#1503#2056#0" />
-            <marker date="1540120814988" expanded="true" signature="1375:1963" ph="..." />
-            <marker date="1540120814988" expanded="true" signature="2393:2690" ph="..." />
+            <marker date="1540164306886" expanded="true" signature="1300:1888" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/NLP/nlp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="76" column="66" lean-forward="true" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="66" />
+          <folding>
+            <element signature="e#466#769#0" />
+            <element signature="e#870#1052#0" />
+            <element signature="e#1090#1473#0" />
+            <element signature="e#1545#1635#0" />
+            <element signature="e#1753#1843#0" />
+            <element signature="e#1962#2355#0" />
+            <element signature="e#2462#2653#0" />
+            <element signature="e#2726#2840#0" />
+            <element signature="e#2986#3074#0" />
+            <element signature="e#5264#5446#0" />
+            <element signature="e#5939#6029#0" />
+            <element signature="e#6148#6541#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/preProText.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#978#1490#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/additional_stops.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Projects/NLP/yelpReviews/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        <state relative-caret-position="-37">
+          <caret line="98" column="36" lean-forward="true" selection-start-line="98" selection-start-column="36" selection-end-line="98" selection-end-column="36" />
           <folding>
             <element signature="e#363#426#0" expanded="true" />
-            <element signature="e#1959#7304#1" />
           </folding>
         </state>
       </provider>

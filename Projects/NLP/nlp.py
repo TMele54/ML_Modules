@@ -1,4 +1,7 @@
+########################################################################################################################
 ##################################################### Functions ########################################################
+########################################################################################################################
+
 def get_reviews(directory): # walks directory of reviews, returns list of lists of review strings
     import os
     data = []
@@ -107,3 +110,46 @@ def part_of_speech(tokens):
     for i in range(0,len(tokens)):
         tokens[i] = pos_tag(tokens[i])
     return tokens
+
+########################################################################################################################
+# Clean Text ###########################################################################################################
+########################################################################################################################
+def remove_special_char(reviews):# removes all punctuation excluding ' from reviews, return lol
+    import re
+    pattern = re.compile("[^\w']") # pattern = re.compile("[^\w']")
+    for i in range(0,len(reviews)):
+        reviews[i] = pattern.sub(' ', reviews[i])
+    return reviews
+def preserve_apostrohpy(tokens):
+    __tokens = []
+    for i in range(len(tokens)):
+        _tokens = tokens[i]
+        for token in _tokens:
+            if len(token) <= 1:
+                if token == 'a' or token == 'i' or token == 'o':
+                    pass
+                else:
+                    _tokens.remove(token)
+            else:
+                pass
+        __tokens.append(_tokens)
+
+    return __tokens
+def lower_case(reviews): # makes all letters lowercase, return lol
+    for i in range(0,len(reviews)):
+        reviews[i] = reviews[i].lower()
+    return reviews
+def remove_stop_words(tokens): # removes words that are regarded not specific to any particular meaning [unigram]
+    stop_words = get_stop_words('en')
+    stop_words = set(stopwords.words('english')+stop_words)
+    good_token_list = []
+    for token_set in tokens:
+        good_tokens = []
+        for token in token_set:
+            if token in stop_words:
+                pass
+            else:
+                good_tokens.append(token)
+        good_token_list.append(good_tokens)
+
+    return good_token_list
