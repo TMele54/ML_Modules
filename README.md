@@ -2,9 +2,9 @@ My ML Portfolio
 
 This portfolio is being made to demonstrate understanding and mastery of using machine learning professionally.
 
-A lot of what is int he portfolio now are based codes copy pasted from various sources that I plan to use as foundation to build my own approaches. Please disregard those which are still in development.
+Most of what is in the portfolio now are base codes copy/pasted from various sources that I plan to use as foundation to build my own approaches. Please disregard those which are still in development. I will continue on this in Early April of 2019.
 
-Project YelpReviews or Semantic Classificaiton have codes in a way that I typically comment code.
+Projects YelpReviews and Semantic Classificaiton have codes in a way that I typically comment/write code.
 
 PyCharm Professional Edition
 AWS t2.2xl, 32GB, 250GB
