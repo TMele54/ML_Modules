@@ -1,11 +1,11 @@
 My ML Portfolio
 
-Projects hasd applications, the rest are examples executed for readiness
+This portfolio is being made to demonstrate understanding and mastery of using machine learning professionally.
 
-Pychram Professional Edition
+PyCharm Professional Edition
 AWS t2.2xl, 32GB, 250GB
 Remote SSH to machine 
-MongoDB on aws Compute Node
-Github Tmel354
-256GB Flaskdrive Backup for portfolio
+MongoDB on AWS Compute Node
+Github Tmele54
+256GB Flaskdrive Backup for Portfolio
 Shared folder to OneDrive
